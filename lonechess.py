@@ -76,7 +76,7 @@ class Knight:
             yield x + xoff, y + yoff
 
 
-class LoneChess(object):
+class LoneChess:
     """Chess puzzles"""
     State = namedtuple('LoneChessState', ['pieces', 'history'])
     Move = namedtuple('Move', ['from_x', 'from_y', 'to_x', 'to_y'])
